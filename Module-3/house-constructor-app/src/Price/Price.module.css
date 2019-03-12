@@ -1,0 +1,6 @@
+.Price {    
+    padding: .5rem 1.5rem;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(to right, green, #ffffff00);
+}

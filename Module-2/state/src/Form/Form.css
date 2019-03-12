@@ -1,0 +1,16 @@
+form{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.text {
+    padding: .5rem;
+}
+
+.btn {
+    margin-left: 0.2rem;
+}

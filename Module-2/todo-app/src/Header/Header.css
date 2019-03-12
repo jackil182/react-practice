@@ -1,0 +1,11 @@
+.Header {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Header__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0 0 2rem;
+}

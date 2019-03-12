@@ -1,0 +1,13 @@
+.btn {
+    border: none;
+    background-color: none;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    background-color: rgb(68, 62, 62);
+    color: white;
+    font-weight: 600;
+} 
+
+.btn-refresh {
+
+}

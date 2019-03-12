@@ -1,0 +1,20 @@
+.PageMenu {
+    display: flex;
+    width: 500px;
+    margin: 1.2rem auto;
+}
+
+.PageMenu__form {
+    width: 200px;
+}
+
+.PageMenu input {
+    width: 50px;
+    margin: 0 .5rem;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.btn-page {
+    width: 145px;
+}

@@ -1,0 +1,18 @@
+.Header {
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.cart {
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+}
+
+.goods-count {
+    margin-right: 10px;
+}

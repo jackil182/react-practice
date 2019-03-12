@@ -1,0 +1,13 @@
+.CardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Card {
+    width: 300px;
+    margin: .8rem;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 5px;
+}

@@ -1,0 +1,61 @@
+.ArticleItem {
+    position: relative;
+}
+
+.article__title {
+    padding: .4rem 1.5rem .4rem .4rem;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(68, 62, 62);
+    margin-bottom: .2rem;
+    font-weight: 600;
+    color: rgb(68, 62, 62);
+}
+
+.article__text {
+    padding: 1rem 2rem;
+    margin: 0 0 .8rem 0;
+    background-color: rgb(68, 62, 62);
+    color: white;
+    border-radius: .5rem;
+    line-height: 1.5rem;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.article__par {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.article__link {
+    display: block;
+    margin-top: .8rem;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.article__link:hover {
+    text-decoration: underline;
+}
+
+.article--open, .article--close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.article--open {
+    background-image: url('https://static.thenounproject.com/png/10897-200.png');
+    transform: rotate(180deg);
+}
+
+.article--close {
+    background-image: url('https://static.thenounproject.com/png/10897-200.png');
+}

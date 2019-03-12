@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://i.pinimg.com/originals/a7/d8/a3/a7d8a324ed4206a8fb6864ba0c168511.jpg');
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.App__title {
+  text-transform: uppercase;
+  padding: .8rem;
+  color: rgb(68, 62, 62);
+}
