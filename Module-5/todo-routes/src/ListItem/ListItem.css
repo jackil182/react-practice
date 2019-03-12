@@ -1,0 +1,86 @@
+.ListItem {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ListItem__text {
+    width: 70%;
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+}
+
+.ListItem__text--completed {
+    text-decoration: line-through;
+}
+
+.btn-edit, .btn-delete {
+    position: relative;
+    font-size: .9rem;
+    width: 14.5%;
+    margin-top: 1.5rem;
+
+    color: #fff;
+
+    border-width: 0;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    overflow: hidden;
+    
+    /* background-color: #2bbbad; */
+    background-color: transparent;
+
+    transition: background-color .3s;
+}
+
+.btn:hover {
+    background-color: #2b99bb;
+    text-decoration: underline;
+  }
+
+.btn:before {
+content: "";
+
+position: absolute;
+top: 50%;
+left: 50%;
+
+display: block;
+width: 0;
+padding-top: 0;
+    
+border-radius: 100%;
+
+background-color: rgba(236, 240, 241, .3);
+
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+width: 120%;
+padding-top: 120%;
+
+transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+
+.ListItem__input {
+    width: 70%;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2BBBAD;
+}
